@@ -13,7 +13,7 @@ const UserCard = () => {
   useEffect(() =>{
       axios.get(url)
       .then((response) =>{
-        console.log(response.data,"userData");
+        // console.log(response.data,"userData");
       })
       .catch((error) =>{
         console.log(error)
